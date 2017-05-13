@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event</title>
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+        <link rel="stylesheet" href="styleEventStudent.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+	<!-- HTML for SEARCH BAR -->
+        <div id="tfheader">
+            <table cellspacing="20">
+                <thead>
+                    <tr>
+                        <th>
+                            <h1>Facultatea de Automatica,Calculatoare si Electronica</h1>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th></th><th></th> <th></th><th></th> <th></th>
+                        <th>
+                            <form id="tfnewsearch" method="get" action=" " >
+                                <input type="text" class="tftextinput " name="q" size="35" maxlength="120"><input type="submit" value="search" class="tfbutton">
+                            </form>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+
+		
+	<div class="tfclear"></div>
+	</div>
+       
+        <div>
+            <br><br>
+            
+            <div class="box">
+                <a class="button" href="#popup">New Event</a>
+            </div>
+
+            <div id="popup" class="overlay">
+                <div class="popup">
+                <h2>New Event</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+                    <form  >
+                        EventID : <input type="text" name="ID" size="22" maxlength="15" /><br><br>
+                        Name : <input type="text" name="nume" size="25" maxlength="15" /><br><br>
+                        Adress : <input type="text" name="adress" size="25" maxlength="15" /><br><br>
+                        StartDate : <input type="text" name="startdate" size="15" maxlength="15" /><br><br>
+                        EndDate : <input type="text" name="enddate" size="15" maxlength="15" /><br><br>
+                        Departament : <input type="text" name="departament" size="25" maxlength="15" /><br><br>
+                        Coordinator : <input type="text" name="coordinator" size="25" maxlength="15" /><br><br>
+                        Remarks : <textarea name="remarks" rows="4" cols="20"></textarea>
+                        <br><br>
+
+                        <input type="submit" value="ADD Event " />
+
+                    </form>
+		</div>
+            </div>
+            
+          
+        </div>
+        </div>
+        
+        <div class="container">           
+        <table class="table table-condensed"  >
+          <thead>
+            <tr>
+              <th>EventID</th>
+              <th>Name</th>
+              <th>Adress</th>
+              <th>StartDate</th>
+              <th>EndDate</th>
+              <th>Department</th>
+              <th>Coordinator</th>
+              <th>Remarks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Doe</td>
+              <td>Craiova</td>
+              <td>12/02/2016</td>
+              <td>23/04/2016</td>
+              <td>Web</td>
+              <td></td>
+              <td>No remarks.</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Doe</td>
+              <td>Craiova</td>
+              <td>12/02/2016</td>
+              <td>23/04/2016</td>
+              <td>Web</td>
+              <td></td>
+              <td>No remarks.</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Doe</td>
+              <td>Craiova</td>
+              <td>12/02/2016</td>
+              <td>23/04/2016</td>
+              <td>Web</td>
+              <td></td>
+              <td>No remarks.</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>       
+    </body>
+</html>
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADMINHome</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styleadminhome.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body >
+
+    <nav class="navbar navbar-fixed-top">
+          <div  id="myNavbar"> 
+              <div >
+                    <table >
+                        <thead>
+                            <tr>  
+                                <th class="thtab"><img src="img/logo_1.png" width="70" height="80" alt="logo_1"/></th>
+                                <th colspan="5"><h1>Facultatea de Automatica Calculatoare si Electronica</h1></th>
+                            </tr>
+                            
+                        </thead>
+                        <tbody>
+
+                            <tr>  
+                               <th></th><th></th><th></th>
+                               <th><a href="#home" >HOME  </a></th>
+                                <th><a href="#students">STUDENTS  </a></th>
+                                <th><a href="#events">EVENTS  </a></th>
+                                <th><a href="#contact">CONTACT  </a></th>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+        </nav>
+
+
+        <div class="jumbotron" id="home">
+
+       
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                <h4>"This website is for the students."<br><span style="font-style:normal;">....</span></h4>
+                </div>
+                <div class="item">
+                  <h4>"The all data is save here"<br><span style="font-style:normal;">...</span></h4>
+                </div>
+                <div class="item">
+                  <h4>"..."<br><span style="font-style:normal;">.....</span></h4>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            
+            <img src="img/ace.png" width="510" height="425" alt="student"/>
+
+        </div>
+    
+        <div class="container-fluid" id="students">
+       
+            <h2><i class="fa fa-users" aria-hidden="true"></i>  Students of ACE</h2>
+            <p>Specializări de licență</p>
+            <ul style="list-style-type:square">
+                <li>Automatică şi Informatică Aplicată (AIA)</li>
+                <li>Calculatoare cu predare în limba română (CR)</li>
+                <li>Calculatoare cu predare în limba engleză (CE)</li>
+                <li>Electronică Aplicată (ELA)</li>
+                <li>Ingineria Sistemelor Multimedia (ISM)</li>
+                <li>Mecatronică (MCT)</li>
+                <li>Robotică (ROB)</li>
+             </ul>
+            
+            <p>Specializări de master</p>
+            <ul style="list-style-type:square">
+                <li>Sisteme Automate Incorporate (SAI)</li>
+                <li>Tehnologii Informatice în Ingineria Sistemelor (TIIS)</li>
+                <li>Information Systems for e-Business (ISB)</li>
+                <li>Ingineria Calculatoarelor și Comunicațiilor (ICC))</li>
+                <li>Inginerie Software (IS)</li>
+                <li>Sisteme de Conducere în Robotică (SCR)</li>
+             </ul>
+            
+            <form action="Student.html" >
+                <input class="btn" type="submit" value="View more details">
+            </form>
+
+
+        </div>
+
+        <div class="container-fluid bg-grey text-center" id="events">
+              <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i>  Events</h2><br>
+              <table  class="text-center events" align="center">
+                  <tbody>
+                      <tr>
+                          <td><img src="img/practica.jpg" alt="Practica" width="300" height="250"/></td>
+                          <td><img src="img/concursuri.jpg"  alt="concursuri" width="300" height="250"/></td>
+    
+                      </tr>
+                      <tr>
+                          <td><strong>Summer Champ</strong></td>
+                          <td><strong>Student Competitions</strong></td>
+
+                      </tr>
+                  </tbody>
+              </table>
+                          
+              <br><br><br>
+              <form action="Events.html" >
+                <input class="btn" type="submit" value="Read more">
+            </form>
+        </div>
+    
+        
+        <div class="container-fluid " id="contact">
+        <h2 ><i class="fa fa-map-marker" aria-hidden="true"></i>  Contact</h2>
+        <div >
+          <div>
+              <p><i class="fa fa-map-marker" ></i> Craiova,Romania</p>
+              <p><i class="fa fa-phone" ></i> 0321 675 567</p>
+              <p><i class="fa fa-envelope" ></i> ace@ace.com</p> 
+          </div>
+    
+        </div>
+        </div>
+    
+    </body>
+</html>

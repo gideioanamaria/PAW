@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student</title>
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styleEventStudent.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+	<!-- HTML for SEARCH BAR -->
+        <div id="tfheader">
+            <table cellspacing="20">
+                <thead>
+                    <tr>
+                        <th>
+                            <h1>Facultatea de Automatica,Calculatoare si Electronica</h1>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th></th><th></th> <th></th><th></th> <th></th>
+                        <th>
+                            <form id="tfnewsearch" method="get" action=" " >
+                                <input type="text" class="tftextinput " name="q" size="35" maxlength="120"><input type="submit" value="search" class="tfbutton">
+                            </form>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="tfclear"></div>
+	</div>
+       
+        <div>
+            <br><br>
+            
+            <div class="box">
+                <a class="button" href="#popup">New Student</a>
+            </div>
+
+            <div id="popup" class="overlay">
+                <div class="popup">
+                <h2>New Student</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+                    <form  >
+                        StudentID : <input type="text" name="ID" size="22" maxlength="15" /><br><br>
+                        FirstName : <input type="text" name="nume" size="25" maxlength="15" /><br><br>
+                        LastName : <input type="text" name="adress" size="25" maxlength="15" /><br><br>
+                        CNP : <input type="text" name="startdate" size="15" maxlength="15" /><br><br>
+                        Adress : <input type="text" name="enddate" size="15" maxlength="15" /><br><br>
+                        Email : <input type="text" name="departament" size="25" maxlength="15" /><br><br>
+                        YearFaculty : <input type="text" name="departament" size="25" maxlength="15" /><br><br>
+                        Specialization : <input type="text" name="departament" size="25" maxlength="15" /><br><br>
+                        TeacherCoordinator : <input type="text" name="coordinator" size="25" maxlength="15" /><br><br>
+                        Remarks : <textarea name="remarks" rows="2" cols="20"></textarea>
+                        <br><br>
+
+                        <input type="submit" value="ADD Student " />
+
+                    </form>
+		</div>
+            </div>
+            
+          
+        </div>
+        </div>
+        
+        <div class="container">           
+        <table class="table table-condensed"  >
+          <thead>
+            <tr>
+              <th>StudentID</th>
+              <th>FirstName</th>
+              <th>LastName</th>
+              <th>CNP</th>
+              <th>Adress</th>
+              <th>Email</th>
+              <th>FacultyYear</th>
+              <th>Specialization</th>
+              <th>TeacherCoordinator</th>
+              <th>Remarks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Doru</td>
+              <td>Marfj</td>
+              <td>2950604567867</td>
+              <td>Craiova</td>
+              <td>doru@thgf.com</td>
+              <td>4</td>
+              <td>AIA</td>
+              <td></td>
+              <td>No remarks.</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Doru</td>
+              <td>Marfj</td>
+              <td>2950604567867</td>
+              <td>Craiova</td>
+              <td>doru@thgf.com</td>
+              <td>4</td>
+              <td>AIA</td>
+              <td></td>
+              <td>No remarks.</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Doru</td>
+              <td>Marfj</td>
+              <td>2950604567867</td>
+              <td>Craiova</td>
+              <td>doru@thgf.com</td>
+              <td>4</td>
+              <td>AIA</td>
+              <td></td>
+              <td>No remarks.</td>
+            </tr>
+            
+          </tbody>
+        </table>
+        </div>
+    
+    </body>
+</html>
+
